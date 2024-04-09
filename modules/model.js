@@ -31,15 +31,16 @@ console.log(module);
 let name = ['vignan', 'lokesh', 'rajesh', 'susu'];
 let score = [100,101,99,102];
 
-module.exports = name;
-module.exports = score;
+// module.exports = name;
+// module.exports = score;
 
 console.log(module.exports);
 // [ 100, 101, 99, 102 ] 
 //NOTE - caution here : since we are reasigning the exports, overriding it. so in case if we want to export two objects we should do it two contents of exports
 
 module.exports.name = name;
-module.exports.score = score;
+//here module.exports and exports refer the same thing
+exports.score = score;
 console.log(module.exports);
 
 /*{
