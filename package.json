@@ -1,0 +1,11 @@
+{
+  "name": "secure-mean-stack-developer",
+  "version": "1.0.0",
+  "description": "My node js Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vignan Kurme",
+  "license": "ISC"
+}
